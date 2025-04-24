@@ -1,0 +1,50 @@
+# Byte-compiled / cache / virtual env files
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env/
+venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and outputs
+*.log
+*.out
+*.bak
+*.tmp
+*.swp
+
+# Kafka and Logstash specific
+#/data/                          # Output JSONs or any intermediate files
+#logstash/output/
+#logstash/.logstash_history
+
+# Python test results
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+.pytest_cache/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# Ignore Kafka local state if using Kafka on host
+kafka-logs/
+zookeeper/
+
+# Optional: if you generate any architecture diagram
+*.png
+*.svg
