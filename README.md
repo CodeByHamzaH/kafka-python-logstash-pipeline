@@ -190,7 +190,7 @@ logstash/.logstash_history
 
 ## 🖼️ Architecture Diagram
 
-![Architecture Diagram](architecture_diagram.png)
+![Architecture Diagram](architecture-diagram/architecture_diagram.png)
 
 ---
 
@@ -202,4 +202,4 @@ This project is licensed under the MIT License.
 
 ## 🙋 Contributing
 
-Want to extend this with Elasticsearch or Avro? Contributions are welcome!
+Want to extend this? Contributions are welcome!

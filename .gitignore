@@ -47,5 +47,5 @@ kafka-logs/
 zookeeper/
 
 # Optional: if you generate any architecture diagram
-*.png
+#*.png
 *.svg
